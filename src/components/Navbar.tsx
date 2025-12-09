@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex items-center justify-between h-16 md:h-20">
           <a href="#home" className="font-heading font-bold text-xl md:text-2xl text-foreground">
-            Zakaaye<span className="text-primary">.</span>
+            Zak<span className="text-gradient">aa</span>ye<span className="text-primary">.</span>
           </a>
 
           {/* Desktop Navigation */}
