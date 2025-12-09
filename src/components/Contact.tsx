@@ -126,7 +126,7 @@ const Contact = () => {
               <p className="text-muted-foreground text-sm mb-4">Follow me on social media</p>
               <div className="flex gap-4">
                 <a
-                  href="#"
+                  href="https://github.com/Zackmohamd"
                   className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
                 >
                   <Github className="w-5 h-5" />

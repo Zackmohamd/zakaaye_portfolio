@@ -14,7 +14,7 @@ const Footer = () => {
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
-            <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors" aria-label="GitHub">
+            <a href="https://github.com/Zackmohamd" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors" aria-label="GitHub">
               <Github className="w-5 h-5" />
             </a>
             <a href="#" className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-primary hover:text-primary-foreground transition-colors" aria-label="LinkedIn">
