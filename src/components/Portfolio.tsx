@@ -1,17 +1,17 @@
 import { ExternalLink } from "lucide-react";
 import { FolderOpen } from "lucide-react";
-import profileres from "@/assets/HomePage.png";
 import { url } from "inspector";
 
 const projects = [
-  {
-    title: "Restaurant Website",
-    category: "Frontend Development",
-    description: "A fully responsive modern restaurant website built with React & Vite.",
-    url: "https://restaurantfrontend-cwafmdwqg-zack60844-gmailcoms-projects.vercel.app/",
-    image: "/src/assets/HomePage.png",
-    placeholder: false,
-  },
+ {
+  title: "Restaurant Website",
+  category: "Frontend Development",
+  description: "A fully responsive modern restaurant website built with React & Vite.",
+  url: "https://restaurantfrontend-xi.vercel.app/",
+  image: "https://www.upload.ee/image/18881572/HomePage.png",
+  placeholder: false,
+},
+
  {
   title: "E-commerce craft",
   category: "Full-Stack Application",
