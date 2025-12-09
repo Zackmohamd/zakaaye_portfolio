@@ -1,4 +1,6 @@
 import { GraduationCap, Code2, Palette } from "lucide-react";
+import { Server } from "lucide-react";
+
 const About = () => {
   return <section id="about" className="section-padding bg-card/50">
       <div className="max-w-7xl mx-auto">
@@ -70,7 +72,7 @@ const About = () => {
             </div>
           </div>
          {/*sofware i use */}
- </div>
+ 
 
          <div className="bg-secondary/50 rounded-2xl p-8 border border-border">
   <div className="flex items-center gap-4 mb-6">
@@ -113,11 +115,39 @@ const About = () => {
   </div>
 </div>
 
-         
-         
+{/* Technical Skills Section */}
+<div className="bg-secondary/50 rounded-2xl p-8 border border-border">
+  <div className="flex items-center gap-4 mb-6">
+    <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center">
+      <GraduationCap className="w-7 h-7 text-primary" />
+    </div>
+    <div>
+      <h4 className="font-heading text-xl font-semibold text-foreground">Technical Skills</h4>
+      {/* Removed background text */}
+    </div>
+  </div>
 
-       
-        
+  <div className="space-y-6">
+
+    {/* Linux Knowledge ONLY */}
+    <div className="border-l-2 border-primary pl-6 relative">
+      <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-primary" />
+      <h5 className="font-semibold text-foreground mb-1 flex items-center gap-2">
+        <Server className="w-4 h-4 text-primary" />
+
+        Linux Knowledge
+      </h5>
+      <p className="text-muted-foreground text-sm">
+        Proficient in Linux system usage, including command-line operations, file management, and basic system administration. Hands-on experience with Linux for development, troubleshooting, and server tasks.
+      </p>
+    </div>
+
+  </div>
+</div>
+
+
+
+        </div>
       </div>
     </section>;
 };
