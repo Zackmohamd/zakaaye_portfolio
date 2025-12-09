@@ -63,6 +63,8 @@ const Contact = () => {
   return (
     <section id="contact" className="section-padding">
       <div className="max-w-7xl mx-auto">
+
+        {/* Header */}
         <div className="text-center mb-16">
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             CONTACT <span className="text-gradient">ME</span>
@@ -71,6 +73,7 @@ const Contact = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
+
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
@@ -84,10 +87,7 @@ const Contact = () => {
             </div>
 
             <div className="space-y-6">
-              <a
-                href="mailto:zakariekaasim1@gmail.com"
-                className="flex items-center gap-4 group"
-              >
+              <a href="mailto:zakariekaasim1@gmail.com" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                   <Mail className="w-5 h-5 text-primary" />
                 </div>
@@ -97,10 +97,7 @@ const Contact = () => {
                 </div>
               </a>
 
-              <a
-                href="tel:+252617999339"
-                className="flex items-center gap-4 group"
-              >
+              <a href="tel:+252617999339" className="flex items-center gap-4 group">
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                   <Phone className="w-5 h-5 text-primary" />
                 </div>
@@ -152,7 +149,7 @@ const Contact = () => {
                   <User className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-muted-foreground" />
                   <Input
                     name="name"
-                    placeholder="John Doe"
+                    placeholder="Enter your name"
                     value={formData.name}
                     onChange={handleChange}
                     required
@@ -169,7 +166,7 @@ const Contact = () => {
                   <Input
                     name="email"
                     type="email"
-                    placeholder="john@example.com"
+                    placeholder="Enter your email"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -192,12 +189,14 @@ const Contact = () => {
                 />
               </div>
 
+              {/* Submit */}
               <Button type="submit" disabled={isSubmitting} className="w-full h-12 rounded-full">
                 {isSubmitting ? "Sending..." : <>Send Message <Send className="ml-2 w-4 h-4" /></>}
               </Button>
 
             </form>
           </div>
+
         </div>
       </div>
     </section>
