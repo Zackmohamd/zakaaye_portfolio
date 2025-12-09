@@ -20,7 +20,7 @@ const Hero = () => {
               Zakarie Mohamed<br />
               <span className="text-gradient">Kasim</span>
             </h1>
-            <p className="text-primary font-semibold text-lg md:text-xl mb-6 opacity-0 animate-fade-in-up animation-delay-400">full-stack Developer &UI/UX Designer</p>
+            <p className="text-primary font-semibold text-lg md:text-xl mb-6 opacity-0 animate-fade-in-up animation-delay-400">full-stack Developer & UI/UX Designer</p>
             <p className="text-muted-foreground text-base md:text-lg max-w-xl mx-auto lg:mx-0 mb-8 opacity-0 animate-fade-in-up animation-delay-600">
               I build modern and useful digital products, specializing in full-stack applications 
               and crafting simple, beautiful user interfaces that help others and look great.
