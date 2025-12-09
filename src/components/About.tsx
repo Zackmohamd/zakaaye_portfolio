@@ -89,7 +89,7 @@ const About = () => {
 
       <h5 className="font-semibold text-foreground mb-1">UI/UX Design</h5>
       <p className="text-muted-foreground text-sm">
-        🎨 Figma • 🖼️ Photoshop • ✒️ Illustrator
+        🎨 Figma • 🖼️ Canva• ✒️ Illustrator
       </p>
     </div>
 
